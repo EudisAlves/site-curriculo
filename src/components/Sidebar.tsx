@@ -1,6 +1,7 @@
 import Avatar from '../img/IMG_20210305_184903_706.jpg'
 import '../styles/components/sidebar.sass'
 
+
 export const Sidebar = () => {
     return (
         <aside id="sidebar">
