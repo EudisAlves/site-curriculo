@@ -4,7 +4,7 @@ import '../styles/components/sidebar.sass'
 export const Sidebar = () => {
     return (
         <aside id="sidebar">
-            <img/>
+            <img src={Avatar} alt="foto de Eudis Alves"/>
             <p className="title">Desenvoldor</p>
             <p>redes sociais</p>
             <p>iformações de contato</p>

@@ -1,10 +1,10 @@
-
+import '.././styles/components/main.sass'
 
 
 
 
 export const MainContant = () => {
     return (
-        <div>Main</div>
+        <div id='main'>Main</div>
     );
 }
