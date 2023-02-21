@@ -9,7 +9,7 @@ export const Sidebar = () => {
             <img src={Avatar} alt="foto de Eudis Alves"/>
             <p className="title">Desenvoldor</p>
             <SocialNetworks />
-            <p>informações de contato</p>
+            <p>informação</p>
             <a href="/" className="btn">
                 Download currículo
             </a>
