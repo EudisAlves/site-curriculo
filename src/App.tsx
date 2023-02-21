@@ -6,7 +6,7 @@ import "./styles/components/app.sass"
 function App() {
   
   return (
-    <div id='Base'>
+    <div id='base'>
       <h1>Eudis Alves</h1>
       <Sidebar />
       <MainContant />
