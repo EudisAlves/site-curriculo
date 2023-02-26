@@ -1,10 +1,15 @@
-import '.././styles/components/main.sass'
+import '../styles/components/maincontent.sass'
+import AbautContainer from './AbautContainer'
+import ProjContainer from './ProjContainer';
+import TecContainer from './TecContainer'
 
 
-
-
-export const MainContant = () => {
+export const MainContent = () => {
     return (
-        <div id='main'>Main</div>
+        <main id='main-section'>
+            <AbautContainer />
+            <TecContainer />
+            <ProjContainer />
+        </main>
     );
 }
