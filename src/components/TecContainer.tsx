@@ -36,7 +36,7 @@ export default function tecContainer() {
                         {tech.icon}
                         <div className="tech-info">
                             <h3>{tech.name}</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing eli.</p>
+                           
                         </div>
                     </div>
                 ))}
