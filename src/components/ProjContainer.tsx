@@ -5,5 +5,5 @@ export default function() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima placeat laborum cumque quae nemo aut, explicabo ab molestias perspiciatis magni veniam unde ullam accusantium, doloremque impedit omnis eaque officiis?</p>
             <a href="https://eudisalves3.netlify.app/" className="btn">Ver Projetos</a>
         </section>
-    )
+    );
 }
