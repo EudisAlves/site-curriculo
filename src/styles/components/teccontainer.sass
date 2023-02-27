@@ -1,18 +1,57 @@
 @use './variables'
 @use './mixins'
 
-#tec-container
+#tech-container
     margin-bottom: 1rem
 
     .tech-grid
-        display: grid
+        display: flex
         flex-wrap: wrap
         gap: 1.5rem
 
-        .tec-card
+        .tech-card
             @include mixins.center
             gap: 1rem
             padding: 1rem
-            border: 1px solid #333
+            border: 1px solid #2df737
             width: 45%
             border-radius: variables.$card-border-redius
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+
+            svg
+                font-size: 5rem
+
+        #html
+            svg
+                color: #fd820f
+
+        #css
+            svg
+                color: #045cff
+
+        #js
+            svg
+                color: #fdf90f
+
+        #node
+            svg
+                color: #48da5c
+
+        #type
+            svg
+            color: #270ffd
+
+        #react
+            svg
+                color: #0fe1fd
+
+        #sass
+             svg
+                color: #7e0ffd
+        #vite
+            svg
+                color: #17f0af
+
